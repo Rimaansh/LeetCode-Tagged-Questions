@@ -1,0 +1,10 @@
+{
+  "name": "leetcode-tagged-questions",
+  "private": true,
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "dev": "npm run dev --prefix web",
+    "build": "npm run build --prefix web",
+    "build:all": "node scripts/build-data.mjs && npm run build --prefix web"
+  }
+}
